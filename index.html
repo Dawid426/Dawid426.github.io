@@ -91,7 +91,13 @@ footer {
 
 footer p {
     font-size: 1rem;
-}    
+}
+
+    .ramka {
+            border: 2px solid black; /* Grubość i kolor ramki */
+            padding: 10px; /* Odstęp między tekstem a ramką */
+            display: inline-block; /* Aby ramka otaczała tylko tekst */
+        }
 </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,11 +118,13 @@ footer p {
         </nav>
     </header>
     <main>
-      
+     
         <section>
+            <div class="ramka">
             <h2>Cześć! Mam na imię Dawid</h2>
-            <p><iframe>Zapraszam Cię do zapoznania się z moim projektem. W tym projekcie zamierzam opowiedzieć o najważniejszych zabytkach starożytnej architektury. Zamierzam pokazać Ci, że starożytność to 
-                fascynujący okres historyczny, pełen ciekawych wydarzeń i obiektów, które do dzisiaj budzą w człowieku podziw i szacunek.</iframe></p>
+            <p>Zapraszam Cię do zapoznania się z moim projektem. W tym projekcie zamierzam opowiedzieć o najważniejszych zabytkach starożytnej architektury. Zamierzam pokazać Ci, że starożytność to 
+                fascynujący okres historyczny, pełen ciekawych wydarzeń i obiektów, które do dzisiaj budzą w człowieku podziw i szacunek.</p>
+            </div>
         </section>
         
     </main>
